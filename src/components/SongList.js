@@ -5,22 +5,28 @@ class SongList extends Component {
   renderList() {
     return this.props.songs.map(song => {
       return (
-        <div className="item" key={song.title}>
-          <div className="right floated content">
-            <div className="ui button primary">Select</div>
+        <div class="item" key={song.id}>
+          <div class="ui tiny image">
+            <img alt="" src={song.image} />
           </div>
-          <div className="content">{song.title}</div>
+          <div class="middle aligned content">
+            {song.name}
+            <div className="right floated content">
+              <div className="ui button basic primary">檢視</div>
+            </div>
+          </div>
         </div>
       );
     });
   }
 
   render() {
-    return <div className="ui divided list">{this.renderList()}</div>;
+    return <div className="ui divided items">{this.renderList()}</div>;
   }
 }
 
 const mapStateToProps = state => {
+  console.log(state)
   return { songs: state.songs };
 };
 

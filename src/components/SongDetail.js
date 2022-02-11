@@ -11,7 +11,7 @@ const SongDetail = ({ song }) => {
         </div>
         <div className="content">
             <div className="meta">
-                <a href="#" className="header">歌手:{song.artist}</a>
+                <h2 href="#" className="header">歌手:{song.artist}</h2>
             </div>
             <div className="description">
                 <p>{song.description}</p>

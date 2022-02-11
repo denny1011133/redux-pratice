@@ -19,9 +19,9 @@ const SongDetail = ({ song }) => {
             <div className="extra">
                 <div className="ui label">{song.type}</div>
                 <div className="ui label">{song.releaseDate}</div>
-                <div class="ui right floated primary button">
+                <div className="ui right floated primary button">
                     聽歌去
-                    <i class="right chevron icon"></i>
+                    <i className="right chevron icon"></i>
                 </div>
             </div>
         </div>

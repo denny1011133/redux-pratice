@@ -2,7 +2,7 @@
 
 本專案以 React/ Redux 作為核心的練習題目，並使用 Create React App 建置。
 
-![Alt demo](https://imgur.com/a/ybs6kYy)
+![Alt demo](https://imgur.com/n1Ycq1t)
 
 
 ## 開發功能

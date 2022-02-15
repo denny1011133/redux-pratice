@@ -8,3 +8,6 @@
 ## 開發功能
 
 * 可瀏覽及檢視目前音樂庫裡所有的專輯封面簡介和介紹。
+
+## 專案連結
+https://fervent-clarke-828edd.netlify.app/
